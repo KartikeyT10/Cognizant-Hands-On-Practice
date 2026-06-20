@@ -3,3 +3,4 @@ class WordDocument implements Document {
         System.out.println("Opening Word Document");
     }
 }
+ 
