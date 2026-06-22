@@ -32,3 +32,4 @@ The recursive solution creates a new function call for every year, which increas
 ## Observation
 
 The future value is calculated by applying the growth rate recursively for each year. This demonstrates how recursion can be used to solve forecasting problems involving repeated calculations over time.
+ 
