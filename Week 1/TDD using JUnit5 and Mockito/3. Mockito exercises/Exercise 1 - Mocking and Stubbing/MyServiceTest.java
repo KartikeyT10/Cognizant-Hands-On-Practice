@@ -8,18 +8,14 @@ public class MyServiceTest {
     @Test
     public void testExternalApi() {
 
-        // Create mock object
         ExternalApi mockApi = mock(ExternalApi.class);
 
-        // Stub method
         when(mockApi.getData()).thenReturn("Mock Data");
 
-        // Use mock object in service
         MyService service = new MyService(mockApi);
 
         String result = service.fetchData();
 
-        // Verify result
         assertEquals("Mock Data", result);
     }
 }
