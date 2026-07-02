@@ -11,8 +11,6 @@ public class Country {
     @Column(name = "co_name")
     private String name;
 
-    // Getters and Setters
-
     @Override
     public String toString() {
         return "Country{" +
