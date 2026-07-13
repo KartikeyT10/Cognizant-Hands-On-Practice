@@ -200,3 +200,12 @@ http://localhost:8081/loans/00987987972342
 ```
 
 ---
+
+## Observation
+
+- Account and Loan are implemented as two independent Spring Boot microservices.
+- Each microservice has its own Maven project and REST controller.
+- Account Microservice runs on port **8080**.
+- Loan Microservice runs on port **8081** to avoid port conflicts.
+- Both services return dummy JSON responses without database connectivity.
+- Microservices can be developed, deployed, and scaled independently.
